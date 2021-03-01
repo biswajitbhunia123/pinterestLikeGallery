@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    border-radius: 13px;
+}
+
+body{
+    padding: 1.2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.profile{
+    width: 25%;
+    max-width: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+.profile h3, .posts h5, .following h5, .follower h5{
+    color: rgba(12, 9, 9, 0.726);
+    font-size: 1rem;
+}
+.profile p,.posts p, .following p, .follower p{
+    color: rgba(83, 77, 77, 0.726);
+    font-size: .6rem;
+}
+.profile_details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 330px;
+    margin: 1rem auto;
+}
+ .posts , .follower, .following{
+     display: inline-block;
+     width: 80px;
+     max-width: 130px;
+     text-align: center;
+     padding: 5px;
+     border-radius: 6px;
+     background-color: rgba(226, 223, 223, 0.836);
+ }
+.galary{
+    margin-top: 2rem;
+    column-count: 2;
+    column-gap: 10px;
+}
+
+
+
+
+
+
